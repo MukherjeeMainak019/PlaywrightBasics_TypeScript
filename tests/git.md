@@ -99,4 +99,25 @@ main
  └─ delete feature branch
 
 
+ Fresh commit/push:
+ git status (To check if git is already initialized): error fatal
+ git init (run if above error is received)
+ git remote -v (Check if a remote already exists:)
+ git remote add origin https://github.com/MukherjeeMainak019/PlaywrightBasics_TypeScript.git
+ git remote -v (verify again)
+ git status (check which files are new/modified or unchecked)
+ git add . (stage all files)
+ git status (confirm staging)
+ git commit -m "Playwright Basics with Type Script full code" 
+ git push -u origin main
+ 
+ Already existing:
+ git status (to check what is changed)
+ git add . (stage it again)
+ git status (confirm the changes)
+ git commit -m "Comments" (commit with comments)
+ git push (Since upstream is already set, just run:)
+
+
+
 
