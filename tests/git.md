@@ -121,3 +121,8 @@ main
 git pull --rebase
 
 
+git push --force
+
+git push --force-with-lease
+
+
