@@ -118,6 +118,6 @@ main
  git commit -m "Comments" (commit with comments)
  git push (Since upstream is already set, just run:)
 
-
+git pull --rebase
 
 
