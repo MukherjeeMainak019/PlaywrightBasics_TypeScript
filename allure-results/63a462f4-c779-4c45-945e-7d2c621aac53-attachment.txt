@@ -1,0 +1,3 @@
+Before executing test
+Finding candy...
+After executing test

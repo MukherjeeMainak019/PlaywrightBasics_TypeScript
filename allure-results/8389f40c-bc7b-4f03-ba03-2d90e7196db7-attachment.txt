@@ -1,0 +1,3 @@
+Before executing test
+I am alive!
+After executing test

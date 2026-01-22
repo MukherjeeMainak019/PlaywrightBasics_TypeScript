@@ -1,0 +1,3 @@
+Hello World from Fixture
+Hello World
+Finding candy...
