@@ -1,4 +1,4 @@
-class Employee2
+class Employee
 {
     eid : number = 0;
     ename : string = "";
@@ -22,6 +22,6 @@ class Employee2
     }
 }
 
-var emp2 = new Employee2();
+var emp2 = new Employee();
 emp2.setData(101, "John Doe", 50000, "IT");
 emp2.display();
