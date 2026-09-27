@@ -51,3 +51,45 @@ console.log("Sum: " + obj.sum());
 console.log("Subtraction: " + obj.sub());
 
 
+//example of multiple inheritance using interfaces in TypeScript
+interface I3 {
+    p: number;
+    q: number;
+    mul(): number;
+}
+
+// now a class can implement multiple interfaces
+class C2 implements I2, I3 {
+    a: number;
+    b: number;
+    x: number;
+    y: number;
+    p: number;
+    q: number;
+
+    constructor(a: number, b: number, x: number, y: number, p: number, q: number) {
+        this.a = a;
+        this.b = b;
+        this.x = x;
+        this.y = y;
+        this.p = p;
+        this.q = q;
+    }
+
+    sum(): number {
+        return this.a + this.b;
+    }
+
+    sub(): number {
+        return this.x - this.y;
+    }
+
+    mul(): number {
+        return this.p * this.q;
+    }
+}
+
+var obj2 = new C2(10, 20, 30, 15, 5, 6);
+console.log("Sum: " + obj2.sum());
+console.log("Subtraction: " + obj2.sub());
+console.log("Multiplication: " + obj2.mul());
