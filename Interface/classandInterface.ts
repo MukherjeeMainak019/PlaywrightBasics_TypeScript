@@ -49,3 +49,5 @@ class C1 implements I2
 var obj = new C1(10, 20, 30, 15);
 console.log("Sum: " + obj.sum());
 console.log("Subtraction: " + obj.sub());
+
+
